@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EStoreWebApi", "EStoreWebApi", "{C4E9ABB6-6EA5-4DCF-A89E-9FC9AB238F9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsManagementAPI", "ProductsManagementAPI\ProductsManagementAPI.csproj", "{E8AC6AA1-F381-4A1C-9B76-69CE6EE3BE53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartAPI", "CartAPI\CartAPI.csproj", "{70347520-EECC-4C1F-A4EA-BD57F7D9EB4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStoreMainAPI", "WebStoreMainAPI\WebStoreMainAPI.csproj", "{F483061E-ED2B-444A-A27D-98ACDF613E44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8AC6AA1-F381-4A1C-9B76-69CE6EE3BE53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8AC6AA1-F381-4A1C-9B76-69CE6EE3BE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8AC6AA1-F381-4A1C-9B76-69CE6EE3BE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8AC6AA1-F381-4A1C-9B76-69CE6EE3BE53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70347520-EECC-4C1F-A4EA-BD57F7D9EB4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70347520-EECC-4C1F-A4EA-BD57F7D9EB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70347520-EECC-4C1F-A4EA-BD57F7D9EB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70347520-EECC-4C1F-A4EA-BD57F7D9EB4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F483061E-ED2B-444A-A27D-98ACDF613E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F483061E-ED2B-444A-A27D-98ACDF613E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F483061E-ED2B-444A-A27D-98ACDF613E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F483061E-ED2B-444A-A27D-98ACDF613E44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8AC6AA1-F381-4A1C-9B76-69CE6EE3BE53} = {C4E9ABB6-6EA5-4DCF-A89E-9FC9AB238F9C}
+		{70347520-EECC-4C1F-A4EA-BD57F7D9EB4B} = {C4E9ABB6-6EA5-4DCF-A89E-9FC9AB238F9C}
+		{F483061E-ED2B-444A-A27D-98ACDF613E44} = {C4E9ABB6-6EA5-4DCF-A89E-9FC9AB238F9C}
+	EndGlobalSection
+EndGlobal
